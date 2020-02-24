@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <!-- Required meta tags -->
+  <title>BEtting Contract</title>
+
+  <script src="./app.js"> </script>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet"  href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  
+  </head>
+<!----static index.html and code manipulate from app.js*/---->
+<body bgcolor="burlywood">
+  
+  <div class ="container">      <!---- *css class is used to identify more than one element so that we can manipulate it through js file*/---->
+  <!---- Bootstrap is a css lib used to customize on the go w/o creating seperate css file ---->
+    <br>
+    <!---- 
+    <div class="row m-t-1">   m is for margin and t is for top and 1  
+      <div class="col-md-12">   col is for column and md is size  
+        <h1> Betting Contract</h1>
+      </div>
+    </div> Link to matches later ---->
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Betting Contract</h2>
+        <form id="bet">
+          <div class="form-group">
+            <label>Player 1 - From address:</label>
+            <input type=" type" class="form-control" id="fromAddress1">
+          </div>
+
+          <p id="message" style="word-wrap: break-word"></p>
+          <input type="submit" value="Player 1 place bets" class="btn-primary" />
+<!--          <div class="form-group">
+            <label>Player 1 - Private Key: </label>
+            <input type="text" class="form-control" id="privateKey1">
+          </div>
+         
+          <div class="form-group">
+            <label>Player 2 - Private Key: </label>
+            <input type="text" class="form-control" id="privateKey2">
+          </div> -->
+
+          <div class="form-group">
+              <label>Team: </label>
+              <select class="form-control" id="team">
+                <option>Home</option>
+                <option>Away</option>
+              </select>
+          </div>
+
+          <div class="form-group">
+            <label>Bet Amount (in ether): </label>
+            <input type="text" class="form-control" id="betAmount">
+          </div>
+
+          
+ </form>
+
+        <form id="player2">
+           <div class="form-group">
+            <label>Player 2 - From address:</label>
+            <input type=" type" class="form-control" id="fromAddress2">
+          </div>
+          <input type="submit" value="Player 2 place bets" class="btn-primary" />
+
+          <div class="form-group">
+              <label>Team: </label>
+              <select class="form-control" id="team2">
+                <option>Home</option>
+                <option>Away</option>
+              </select>
+          </div>
+
+      
+        </form>
+
+        <!--   <form id="transfer">
+          <p id="message" style="word-wrap: break-word"></p>
+          <input type="submit" value="Transfer" class="btn-primary" />
+        </form> -->
+       
+
+  </div>
+</body>
+</html>
