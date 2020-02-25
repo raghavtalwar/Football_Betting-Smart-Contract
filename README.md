@@ -1,13 +1,14 @@
 # Football_Betting-Smart-Contract
 Create the user manual to for your Ethereum application, from installation to running application.
-**This is the first Football smart contract that uses Provable/Oraclize to fetch result from API with front end**
 
-This is a Smart Contract that fetches result from API using Provable. The smart contract will fetch the result of a football match and will transfer ether into the winners account. The contract will send a query to API and will fetch the result. The result in this case would be either HOME TEAM or AWAY TEAM. The transfer of ether will take place after checking who placed the bet on the winning team.
+**This is the first Football Betting smart contract that uses Provable/Oraclize to fetch result from API and is developed with front end**
+
+This is a Smart Contract that fetches result from API using Provable. The smart contract will fetch the result of a football match and will transfer ether into the winner's account. The contract will send a query to API and will fetch the result. The result, in this case, would be either HOME TEAM or AWAY TEAM. The transfer of ether will take place after checking who placed the bet on the winning team.
 
 Tools used - Truffle , Truffle webpack, Metamask, Provable (oraclize),  ethereum-bridge.
 API - https://fastestlivescores.com/live-scores-api-feed/
 
-This project is developed in a local environment and is a nice example on how to use oraclize/provable to fetch the result and transfer ether. The front end will enable the users to place bets on either HOME or AWAY team in a convinient manner.
+This project is developed in a local environment and is a nice example of how to use oraclize/provable to fetch the result and transfer ether between truffle accounts by using metamask/front end. The front end will enable the users to place bets on either HOME or AWAY team in a convenient manner.
 
 Follow the steps on how to run this project or simply watch the video on Youtube.
 
@@ -31,5 +32,5 @@ Add truffle accounts to your metamask - https://www.trufflesuite.com/docs/truffl
 
 Youtube link - https://youtu.be/d57E4HM55Ek
 
-You must have basic knowledge of using these tools and solidity in order to run this project otherwise you might get stuck
-You only need to run npm install command once as it only install project dependencies
+You must have basic knowledge of using these tools and solidity language in order to run this project otherwise you might get stuck
+You only need to run npm install command once as it only installs project dependencies
