@@ -36,7 +36,7 @@ contract OraclizeTest is usingOraclize {
         homeBet = msg.sender;
         amountStore[msg.sender] += msg.value;
         emit LogDeposit(msg.sender, msg.value, "Executed deposit HOME");
-        oraclize_query("URL", "json(https://api.crowdscores.com/v1/matches/123945?api_key=c0b5db1146324e89bf180d1bd35adba3).outcome.winner");
+        oraclize_query("URL", "json(https://api.crowdscores.com/v1/matches/123945?api_key=bbfe1f3c42a04c1a9f112c9adc71cdc0).outcome.winner");
         return true;
         }
         else if(team == 2)
@@ -44,7 +44,7 @@ contract OraclizeTest is usingOraclize {
         awayBet = msg.sender;
         amountStore[msg.sender] += msg.value;
         emit LogDeposit(msg.sender, msg.value, "Executed deposit AWAY");
-        oraclize_query("URL", "json(https://api.crowdscores.com/v1/matches/123945?api_key=c0b5db1146324e89bf180d1bd35adba3).outcome.winner");
+        oraclize_query("URL", "json(https://api.crowdscores.com/v1/matches/123945?api_key=bbfe1f3c42a04c1a9f112c9adc71cdc0).outcome.winner");
         return true; 
         }
     }
