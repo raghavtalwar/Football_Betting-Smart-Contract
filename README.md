@@ -1,7 +1,9 @@
-# Football_Betting-Smart-Contract
+# Football Betting Smart Contract with Front End
 
 
 **This is the first Football Betting smart contract that uses Provable/Oraclize to fetch result from API and is developed with front end**
+
+![Smart Contract]()
 
 This is a Smart Contract that fetches result from API using Provable. The smart contract will fetch the result of a football match and will transfer ether into the winner's account. The contract will send a query to API and will fetch the result. The result, in this case, would be either HOME TEAM or AWAY TEAM. The transfer of ether will take place after checking who placed the bet on the winning team.
 
