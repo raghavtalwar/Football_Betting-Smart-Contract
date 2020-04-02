@@ -1,5 +1,5 @@
 # Football_Betting-Smart-Contract
-Create the user manual to for your Ethereum application, from installation to running application.
+
 
 **This is the first Football Betting smart contract that uses Provable/Oraclize to fetch result from API and is developed with front end**
 
